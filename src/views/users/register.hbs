@@ -1,0 +1,51 @@
+<div class="row">
+<div class="col-md-4 mx-auto">
+<div class="card mt-4 text-center">
+    <div class="">
+        <div class="card-header">
+           <h1>Registro</h1> 
+            <div class="card-body">
+                <!---ESTO TENES QUE RETOCAR, TANTO EL LOGO PARA QUE QUEDE MAS EXTENDIDO Y DARLE FORMA AL TITULO COLOR ETC-->
+                <img class="rounded-circle mx-auto d-block logo m-4" src="/img/logo.png" alt="LogoR">
+            <form action="/users/register" method="POST" >
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Nombre" value="{{name}}">
+                    </input> 
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="surname" placeholder="Apellido" value="{{surname}}">
+                    </input> 
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Correo electrónico" value="{{email}}">
+                    </input> 
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" name="enrollment" placeholder="Número de matrícula" value="{{enrollment}}">
+                    </input> 
+                </div>
+                 <div class="form-group">
+                    <input type="number" class="form-control" name="file" placeholder="Número de legajo" value="{{file}}">
+                    </input> 
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="password" placeholder="Password" value="{{password}}">
+                    </input> 
+                </div>
+                 <div class="form-group">
+                    <input type="password" class="form-control" name="confirmpwd" placeholder="Confirmar password" value="{{confirmpwd}}"> 
+                    </input> 
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Registrarse
+                    </button>
+
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
